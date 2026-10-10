@@ -1,0 +1,11 @@
+{
+  "model": "model_alpha80_work",
+  "plugin_alpha": 80,
+  "location": "Work",
+  "start_time": 3,
+  "base_scenario": {
+    "duration_minutes": 15,
+    "activation_time_percent": 0,
+    "start_time": 18.5
+  }
+}

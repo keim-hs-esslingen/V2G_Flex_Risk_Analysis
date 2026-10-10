@@ -1,0 +1,9 @@
+Installation:
+1) python-Umgebung und Editor:
+Zum Beispiel mit pycharm: https://www.jetbrains.com/pycharm/download/?section=windows für windows: community edition (lizenzfrei)
+2) Anlegen eines neuen Projektes
+3) Dateien in den Ordner kopieren
+4) Auswahl python interpreter (z.B. 3.11.7)
+5) Wichtig: requierements.txt --> install requierements (alle packages mit den entpsrechenden Versionen, damit das Tool funktioniert
+--> SimulationTool-Thesis.py ausführen (in pycharms mit run) oder über den Konsolenbefehl (Terminal) "python SimulationTool-Thesis.py"
+ 

@@ -1,0 +1,2 @@
+fixDAteFlex as soon as possible (cahrging strategy) mit heurisic "max at start" liefert bei activaiton_time = 0 nicht das gleiche Ergebnis wie spontanflex
+--> Also hier nur mit spontanflex rechnen

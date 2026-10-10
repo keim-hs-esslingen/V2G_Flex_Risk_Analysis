@@ -1,0 +1,21 @@
+{
+  "scenario": "base_flex_on_model_power176_home_home",
+  "model_params": {
+    "name": "model_power176_home",
+    "num_users": 100,
+    "power": 176,
+    "plugin_alpha": 2.5
+  },
+  "flex_params": {
+    "duration_minutes": 30,
+    "activation_time_percent": 0,
+    "flex_location": "Home",
+    "start_time": 18.5
+  },
+  "flex_specs": {
+    "spontanflex": true,
+    "flex_start_time_hours": 18.5,
+    "flex_duration_minutes": 30,
+    "activation_time_percent": 0
+  }
+}

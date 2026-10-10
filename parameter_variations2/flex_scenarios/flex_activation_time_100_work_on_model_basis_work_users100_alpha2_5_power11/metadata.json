@@ -1,0 +1,23 @@
+{
+  "flex_param_type": "activation_time",
+  "flex_param_value": 100,
+  "flex_location": "Work",
+  "base_model": "model_basis_work_users100_alpha2_5_power11",
+  "base_model_params": {
+    "num_users": 100,
+    "power": 11,
+    "plugin_alpha_home": 0.1,
+    "plugin_alpha_work": 2.5
+  },
+  "scenario": {
+    "duration_minutes": 30,
+    "activation_time_percent": 100,
+    "start_time": 18.5
+  },
+  "flex_specs": {
+    "spontanflex": false,
+    "flex_start_time_hours": 11.5,
+    "flex_duration_minutes": 30,
+    "activation_time_percent": 100
+  }
+}

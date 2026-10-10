@@ -1,0 +1,11 @@
+{
+  "model": "model_alpha0_5_work",
+  "plugin_alpha": 0.5,
+  "location": "Work",
+  "start_time": 13,
+  "base_scenario": {
+    "duration_minutes": 15,
+    "activation_time_percent": 0,
+    "start_time": 18.5
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": "model_alpha5_home",
+  "plugin_alpha": 5,
+  "location": "Home",
+  "start_time": 19,
+  "base_scenario": {
+    "duration_minutes": 15,
+    "activation_time_percent": 0,
+    "start_time": 18.5
+  }
+}

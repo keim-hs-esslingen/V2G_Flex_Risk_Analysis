@@ -1,0 +1,84 @@
+{
+    "trip-generation": {
+        "MINIMUM_SPEED": 20,
+        "MINIMUM_DISTANCE": 0.5,
+        "ENERGY_CONSUMPTION": "constant in range"
+    },
+    "plug-in": {
+        "PLUG_IN_SIMPLE": false,
+        "PLUG_IN_ALPHA_PUBLIC": [
+            0.1
+        ],
+        "PLUG_IN_ALPHA_WORK": [
+            0.1
+        ],
+        "PLUG_IN_ALPHA_HOME": [
+            5
+        ],
+        "MIN_SOC_AFTER_LAST_TRIP_ACTIVE": true,
+        "MIN_SOC_AFTER_LAST_TRIP": 30,
+        "MIN_SOC_PLUG_IN": 20,
+        "WITHOUT_WORKING_STATION_ACCESS": 0,
+        "CHARGING_EVERY_DAY_AFTER_LAST_TRIP": 0
+    },
+    "model_specifications": {
+        "NUMBER_OF_DAYS": 100,
+        "NUMBER_OF_USERS": 400,
+        "NUMBER_OF_RUNS": 10,
+        "START_DAY": "01"
+    },
+    "flexibility_calculation": {
+        "MIN_FLEX_TIME": 0,
+        "MIN_SOC": 40,
+        "SOC_TOL": 7,
+        "MAX_SOC": 95,
+        "CHARGING_STRATEGIES": [
+            "as soon as possible",
+            "as late as possible",
+            "as long as possible with minimum rate"
+        ],
+        "HEURISTICS": [
+            "max at start",
+            "as long as possible with minimum rate"
+        ],
+        "MIN_DELIEVERY_TIME": 0,
+        "V2G_AVAILABILITY": 100,
+        "USER_INTERACTION_SIMULATION": true,
+        "USER_INTERACTION_SIM_RANGE_SHARES": [
+            0.3,
+            0.6,
+            0.85,
+            0.9,
+            1
+        ],
+        "USER_INTERACTION_SIM_RANGES": [
+            30,
+            50,
+            100,
+            150,
+            250
+        ]
+    },
+    "flexibility_specifications": {
+        "SPONTAN_FLEX": true,
+        "RISK": true,
+        "FLEX_START_TIME": 20,
+        "FLEX_DURATION": 15,
+        "FLEX_ACTIVATION_TIME": 5,
+        "FLEX_PLACE": "Home",
+        "FLEX_AT_NUMBER_OF_DAY": -1,
+        "FLEX_AT_NUMBER_OF_RUN": 0,
+        "FLEX_AT_DAYTYPE": 0,
+        "FLEX_DEPENDANT": false
+    },
+    "viz_flexibility_specifications": {
+        "VIZ_CHARGING_STRATEGIES": [
+            1
+        ],
+        "VIZ_HEURISTICS": 1,
+        "VIZ_MODUS": 0,
+        "VIZ_SHOW": true,
+        "VIZ_SAVE": false,
+        "VIZ_FILENAME": "img/flexibility"
+    }
+}

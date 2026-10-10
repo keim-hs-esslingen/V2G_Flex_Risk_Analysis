@@ -1,0 +1,21 @@
+{
+  "scenario": "base_flex_on_model_battery160_work_work",
+  "model_params": {
+    "name": "model_battery160_work",
+    "num_users": 100,
+    "power": 11,
+    "plugin_alpha": 2.5
+  },
+  "flex_params": {
+    "duration_minutes": 30,
+    "activation_time_percent": 0,
+    "flex_location": "Work",
+    "start_time": 11.5
+  },
+  "flex_specs": {
+    "spontanflex": true,
+    "flex_start_time_hours": 11.5,
+    "flex_duration_minutes": 30,
+    "activation_time_percent": 0
+  }
+}

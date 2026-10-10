@@ -1,0 +1,32 @@
+{
+  "model_name": "model_alpha0_1_work",
+  "model_params": {
+    "num_users": 200,
+    "plugin_alpha": 0.1,
+    "power": 11,
+    "location": "Work"
+  },
+  "statistics": {
+    "total_records": 200000,
+    "total_trips": 426231,
+    "total_charging": 229876,
+    "total_charging_home": 43651,
+    "total_charging_work": 78754,
+    "total_charging_public": 107471,
+    "days_with_trips": 132984,
+    "days_without_trips": 67016,
+    "avg_trips_per_day": 2.131155,
+    "avg_charging_per_day": 1.14938,
+    "avg_charging_home_per_day": 0.218255,
+    "avg_charging_work_per_day": 0.39377,
+    "avg_charging_public_per_day": 0.537355,
+    "avg_ratio_charging_to_trips": 0.493093312487375,
+    "avg_ratio_home_charging_to_trips": 0.08130996039710621,
+    "avg_ratio_work_charging_to_trips": 0.20289405862407126,
+    "avg_ratio_public_charging_to_trips": 0.20888929346619745,
+    "median_ratio_charging_to_trips": 0.5,
+    "std_ratio_charging_to_trips": 0.25101023885386614,
+    "min_ratio": 0.0,
+    "max_ratio": 2.0
+  }
+}
