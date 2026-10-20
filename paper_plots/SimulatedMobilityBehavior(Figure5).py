@@ -5,7 +5,7 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 
-from archive.trip_chain_validation import trip_chain_validation
+from helper_files.trip_chain_validation import trip_chain_validation
 
 
 def resolve_model_base(model_arg: str) -> Path:

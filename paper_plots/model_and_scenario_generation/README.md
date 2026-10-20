@@ -23,7 +23,7 @@ Kept in the repo: `histogram_errors.json`, `hist_*.png`, `stats_*.json`, `Settin
 Removed: `model_<scenario>.pkl` and `VehicleList_<scenario>.pkl` for all scenarios. The
 `VehicleList_B4_SOC_AFTER30_SOC_PLUG40.pkl` of the best-scoring scenario (needed for Figure 6) exceeds
 GitHub's 100 MB file size limit and has therefore also been removed; it is available at
-[LINK EINFUEGEN] and must be copied back into `plugin/B4_SOC_AFTER30_SOC_PLUG40/` before reproducing
+https://zenodo.org/records/23289603 and must be copied back into `plugin/B4_SOC_AFTER30_SOC_PLUG40/` before reproducing
 Figure 6. `plugin_validation2.py` can be re-run to regenerate all models and vehicle lists if needed.
 
 Similarly, `NormalizedHistogramms_plugin(Figure6).py` and `plug-in_analysis.py` read real-world
@@ -31,7 +31,7 @@ comparison data from `dataCharging/`. The file `dataCharging/alreadyLoaded/UK_ch
 (also needed for Figure 12) exceeds the 100 MB limit and was removed together with
 `dataCharging/modelData/VehicleList2.pkl` and
 `dataCharging/Charging_data_for_tests/electric-chargepoint-analysis-2017-raw-domestics-data.csv`.
-All three are available at [LINK EINFUEGEN] and must be copied back into their original locations
+All three are available at https://zenodo.org/records/23289603 and must be copied back into their original locations
 before running the affected scripts/figures.
 
 ## pl_model_variation.py → `pl_variations/`
@@ -77,6 +77,6 @@ Unlike `plugin/`, `pl_variations/` and `parameter_variations2/`, the `models_fin
 (**Figure 12**) and by `pl_model_daytime_daytype_analysis.py` (**Figure 18**).
 
 Due to their size, the `models_final/*.pkl` files have been removed from this repository and are
-available at [LINK EINFUEGEN]. **Figure 12 and Figure 18 cannot be reproduced until these files are
+available at https://zenodo.org/records/23289603. **Figure 12 and Figure 18 cannot be reproduced until these files are
 copied back into `models_final/`.**
 

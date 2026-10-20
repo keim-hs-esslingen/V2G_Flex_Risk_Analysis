@@ -19,7 +19,7 @@ def run_example(num, load_model = False,  runs=1):
 
     simulation_tool = start_tool()
 
-    name_model = "models/flex-validation/Szenario_flex_duration" + str(num)
+    name_model = "models_final/flex-validation/Szenario_flex_duration" + str(num)
 
     if load_model:
         simulation_tool.load_model(name_model)
