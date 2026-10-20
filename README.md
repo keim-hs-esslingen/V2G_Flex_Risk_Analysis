@@ -1,3 +1,7 @@
+# Reproduction of Paper Figures
+For reproducing paper results/figures, look in file `ReadMe_PaperPlots` in folder `paper_plots`.
+Additional data to reproduce all figures or analyze original models can be found in https://zenodo.org/records/23289603.
+`README.md` in folder `model_and_scenario_generation` contains additional instructions, when this additional data is needed.
 
 # EV Fleet Flexibility Simulation Tool
 
@@ -8,7 +12,7 @@ Two components 'flexibility calculation' and "simulation model".
 ---
 # Extensive explanation in german in 'Simulationstool.pdf' how simulation model and flexibility calculation works
 
-# Folder structure
+
 # Project Structure
 
 ## Directories
